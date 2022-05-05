@@ -1,0 +1,27 @@
+.main-con{
+  display: flex;
+  padding-top: 50px;
+  margin-bottom: 150px;
+  position: relative;
+}
+.load-more{
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer{
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 80px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  background-color: #212529;
+}

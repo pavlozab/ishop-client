@@ -1,0 +1,49 @@
+.order-wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.orders{
+    margin-bottom: 70px;
+    overflow: scroll;
+    background-color: lightgray;
+    width: 70%;
+    padding: 20px 50px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.orders__date{
+    color: gray;
+    margin-bottom: 10px;
+}
+.orders__item{
+    border: 1px solid gray;
+    padding: 5px;
+}
+.orders__header{
+    font-size: 26px;
+    font-weight: bold;
+}
+.orders__list{
+    padding: 0;
+    width: 100%;
+}
+.orders__price{
+    text-align: right;
+    font-family: 21px;
+    color: darkslategray;
+    font-weight: bold;
+
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

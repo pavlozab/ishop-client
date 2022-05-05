@@ -1,0 +1,61 @@
+.products{
+    width: 80%;
+    padding: 10px;
+}
+.row{
+    margin-bottom: 20px;   
+}
+.card{
+    padding: 20px 3px ;
+}
+.card > button{
+    width: 80%;
+}
+.card-img-top{
+    margin: 0 auto;
+    max-height: 250px;
+    object-fit: contain;
+}
+.card-subtitle{
+    font-weight: bold;
+    color: gold;
+    text-shadow: 1px 1px 2px darkslategray;
+}
+.card-text{
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+.card-subtitle span{
+    margin-left: 10px;
+    text-shadow: none;
+
+    color: darkslategray;
+    font-size: 0.9rem;
+    text-decoration:line-through;
+} 
+
+
+
+.product-update{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#update{
+    width: 100%;
+    height: 100%;
+    height: 70px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.product-update input{
+    width: 100%;
+}
