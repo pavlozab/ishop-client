@@ -39,13 +39,6 @@ class Service{
     signUp = async (newUser) => await axiosInstance.post('auth/registration', newUser);
     signIn = async (loggedUser) => await axiosInstance.post('auth/login', loggedUser)
 
-    // _transformProduct = (prod) => {
-    //     return {
-    //         ...prod,
-    //         id: prod.productId,
-    //     }
-    // }
-
     postProduct = async (prod) => {
         return await axiosInstance.post('/product', this._transformForPost(prod))
     }

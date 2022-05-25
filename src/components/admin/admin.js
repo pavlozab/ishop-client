@@ -36,16 +36,7 @@ export default function Admin(){
             })
             .catch(err=> console.log(err))
     }
-    // {
-    //     "image": "string",
-    //     "title": "string",
-    //     "memory": 1024,
-    //     "price": 0,
-    //     "newPrice": 0,
-    //     "diagonal": 0,
-    //     "color": "string",
-    //     "amount": 2147483647
-    //   }
+
     return (
        
         <Form className="form" onSubmit={(e)=>createProduct(e)}>

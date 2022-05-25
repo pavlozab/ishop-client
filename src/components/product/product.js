@@ -40,7 +40,7 @@ export default function Product(){
             setModal(false);
             localStorage.setItem('cart',JSON.stringify(products))
         }
-        else alert('На складі нема стільки телефонів!!!')
+        else alert('На складі немає стільки в наявності!')
     }
 
     const renderProduct=(phone)=>{

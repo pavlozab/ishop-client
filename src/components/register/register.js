@@ -7,7 +7,7 @@ export default function Register(){
     const [passwordValue, setPass] = useState(''); 
     const [emailValue, setEmail] = useState(''); 
     const [errModal, setModalOpen] = useState(false);
-    const [errMess, setErrMess] = useState('Error messajhghjghjgjhkjkjhkjhkjhjkhkjhkjhge');
+    const [errMess, setErrMess] = useState('Error');
     const [passwordCheck, setPassCheck] = useState('');
     const signUpUser=(password,email)=>{
         if(password && email){
